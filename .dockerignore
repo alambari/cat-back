@@ -1,0 +1,7 @@
+Dockerfile*
+docker-compose*
+test/
+node_modules
+.dockerignore
+.git
+.env

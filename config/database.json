@@ -1,0 +1,53 @@
+{
+  "development": {
+    "username": "avd",
+    "password": "avd",
+    "database": "guzel-development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+
+    "native": false,
+    "pool": {
+      "max": 5,
+      "acquire": 30000
+    },
+    "ssl": false,
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "avd",
+    "password": "avd",
+    "database": "guzel-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "native": false,
+    "pool": {
+      "max": 5,
+      "acquire": 30000
+    },
+    "ssl": false,
+    "timezone": "+07:00"  
+  },
+  "staging": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "native": false,
+    "pool": {
+      "max": 5,
+      "acquire": 30000
+    },
+    "ssl": false,
+    "timezone": "+07:00"  
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "native": false,
+    "pool": {
+      "max": 5,
+      "acquire": 30000
+    },
+    "ssl": false,
+    "timezone": "+07:00"  
+  }
+}

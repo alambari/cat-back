@@ -1,0 +1,30 @@
+{
+  "globals": {
+    "__base": true
+  },
+  "rules": {
+    "indent": [0, "tab"],
+    "quotes": [0],
+    "space-after-keywords": ["off"],
+    "no-empty-label": ["off"],
+    "space-return-throw-case": ["off"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "no-unused-vars": [2, {"vars": "local", "args": "after-used"}],
+    "comma-dangle": [0, "always-multiline"],
+    "no-async-promise-executor": ["warn"],
+    "no-prototype-builtins": ["off"],
+    "no-useless-catch": ["off"]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaVersion": 2018    
+  },
+  "extends": "eslint:recommended"
+}
